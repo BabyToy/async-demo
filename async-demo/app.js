@@ -1,8 +1,7 @@
 /*eslint valid-jsdoc: "off"*/
 'use strict';
 
-const aw = require('./async');
+const handler = require('./async');
 
-aw.function1();
-// pa.function1();
+handler.function1();
 console.log('Done');
