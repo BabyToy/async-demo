@@ -28,7 +28,13 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="all-2.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app.js" />
+    <Compile Include="async.js" />
+    <Compile Include="all-1.js" />
+    <Content Include=".eslintrc.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
